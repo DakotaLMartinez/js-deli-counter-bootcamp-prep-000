@@ -19,7 +19,9 @@ function currentLine(katzDeli) {
   } else {
     var str = "The line is currently: "
     for (var i = 0; i < katzDeli.length; i++) {
-      debugger
+      var person = katzDeli[i]
+      var string = `${i+1}. ${person}`
+      str + string;
     }
   }
 }
