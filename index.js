@@ -21,7 +21,8 @@ function currentLine(katzDeli) {
     for (var i = 0; i < katzDeli.length; i++) {
       var person = katzDeli[i]
       var string = `${i+1}. ${person}`
-      str + string;
+      var newLine = str + string;
+      return newLine
     }
   }
 }
