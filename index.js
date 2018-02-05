@@ -22,7 +22,7 @@ function currentLine(katzDeli) {
       var person = katzDeli[i]
       var string = `${i+1}. ${person}`
       var newLine = str + string;
-      return newLine
     }
+    return newLine
   }
 }
