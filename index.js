@@ -20,7 +20,7 @@ function currentLine(katzDeli) {
     var str = "The line is currently: "
     for (var i = 0; i < katzDeli.length; i++) {
       var person = katzDeli[i]
-      var string = `${i+1}. ${person}`
+      var string = `${i+1}. ${person}, `
       str = str + string;
       debugger;
     }
